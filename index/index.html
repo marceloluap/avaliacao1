@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+
+
+</head>
+
+<body class="background--body">
+    <div>
+        <nav>
+            <ul>
+                <li>Página Principal</li>
+                <li>Listas</li>
+                <li>Contato</li>
+            </ul>
+        </nav>
+    </div>
+    <div>
+        <h1 class="centralizar">Carta da Semana</h1>
+        <p class="centralizar">
+            <img class="maxLargura espaco-padrao-entre-Cartas" src="https://i.imgur.com/sWJ1bxN.jpg">
+        </p>
+    </div>
+    <br>
+    <div class="centralizar">
+
+        <h2>Cartas Mais Baratas</h2>
+
+        <img class="maxLargura espaco-padrao-entre-Cartas" src="https://i.imgur.com/CA41pWI.jpg">
+
+        <img class="maxLargura espaco-padrao-entre-Cartas" src="https://i.imgur.com/AGP00bz.jpg">
+
+        <img class="maxLargura espaco-padrao-entre-Cartas" src="https://i.imgur.com/EZ106MO.jpg">
+    </div>
+    <section>
+        <form id="form-adiciona">
+            <div class="bloco-inserir centralizar">
+                <h1>Monte sua Lista</h1>
+            </div>
+            <div class="bloco-inserir">
+                <div class="inserir-tabela">
+
+                    <h3 class="inserir">Carta</h3> <input type="text" class="inserir inserir-carta" id="nome"
+                        placeholder="insira o nome" required>
+                    <h3 class="inserir">Preço</h3> <input type="text" class="inserir inserir-preço" id="preco"
+                        placeholder="insira o preço" required>
+                    <h3 class="inserir">Imagem</h3> <input type="text" class="inserir inserir-imagem" id="imagemCarta"
+                        placeholder="insira o caminho" required>
+
+
+                    <!-- <button class="inserir" type="button">Adicionar</button> -->
+                    <button id="adicionaCarta" class="botao bto-principal">Adicionar</button>
+
+
+                </div>
+            </div>
+        </form>
+    </section>
+    <table class="tabela-estilo" id="tabela-Cartass">
+        <tr class="Cartas">
+            <th>Carta</th>
+            <th>Preço</th>
+            <th>Imagem</th>
+        </tr>
+        <tr class="Cartas">
+            <td class="info-nome">Black Lotus</td>
+            <td class="info-preco">1000000,00</td>
+            <td class="info-imagemCarta"><img class="tamanho-imagem-tabela"
+                    src="https://repositorio.sbrauble.com/arquivos/in/magic/480115/633f454e699ed-udmt2-64xiv-33716459633f454e69a38.jpg">
+            </td>
+        </tr>
+
+
+
+    </table>
+
+
+
+<script src="index.js"></script>
+</body>
+
+</html>

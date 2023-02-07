@@ -1,0 +1,73 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.centralizar {
+    text-align: center;
+}
+
+.maxLargura {
+    max-width: 100%;
+}
+
+.espaco-padrao-entre-Cartas {
+    margin: 1rem;
+}
+
+
+
+.tabela-estilo {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.tabela-estilo td,
+.customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.tabela-estilo tr:nth-child(even) {
+    background-color: #fff;
+}
+
+.tabela-estilo tr:hover {
+    background-color: #d6d6d6;
+}
+
+.tabela-estilo th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4763e2;
+    color: white;
+}
+
+
+.inserir-tabela {
+    display: flex;
+    justify-content: center;
+
+}
+
+.tamanho-imagem-tabela {
+    height: 160px;
+    width: 110px;
+}
+
+.inserir {
+    margin-right: 8px;
+}
+
+.background--body {
+    background-image: url("https://mega.ibxk.com.br//2018/12/10/10115738589149.jpg?ims=1439x800");
+    background-repeat: no-repeat;
+}
+
+.bloco-inserir {
+    background-color: #fff;
+    padding: 8px;
+    border: 2px solid #000
+}
