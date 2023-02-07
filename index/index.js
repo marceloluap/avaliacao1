@@ -41,12 +41,15 @@ function montaTr(Cartas) {
     var CartasTr = document.createElement("tr");
     CartasTr.classList.add("Cartas");
 
-    CartasTr.appendChild(montaTd(Cartas.nome, "info-nome"));
-    CartasTr.appendChild(montaTd(Cartas.preco, "info-preco"));
-    CartasTr.appendChild(montaTd(Cartas.imagemCarta, "info-imagemCarta"));
-
+    var criaImagem = document.createElement("IMG");
+    criaImagem.setAttribute("src", Cartas.imagemCarta);
+    criaImagem.setAttribute("width", "110");
+    criaImagem.setAttribute("height", "160");
     
 
+    CartasTr.appendChild(montaTd(Cartas.nome, "info-nome"));
+    CartasTr.appendChild(montaTd(Cartas.preco, "info-preco"));
+    CartasTr.appendChild(montaTd("", "info-imagemCarta")).appendChild(criaImagem);
 
     return CartasTr;
 }
